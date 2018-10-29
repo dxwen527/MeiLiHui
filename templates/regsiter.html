@@ -1,14 +1,15 @@
+{%  load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>注册页面</title>
-    <script src="JS/jquery-1.12.3.js" type="text/javascript"></script>
-    <script src="JS/jquery.cookie.js" type="text/javascript"></script>
-    <script src="JS/register.js" type="text/javascript"></script>
+    <script src="{% static 'JS/jquery-1.12.3.js' %}" type="text/javascript"></script>
+    <script src="{%  static 'JS/jquery.cookie.js' %}" type="text/javascript"></script>
+    <script src="{%  static 'JS/register.js' %}" type="text/javascript"></script>
 
-    <link rel="stylesheet" href="CSS/regsiter.css" type="text/css">
-    <link rel="stylesheet" href="CSS/jquery.idcode.css" type="text/css">
+    <link rel="stylesheet" href="{%  static 'CSS/regsiter.css' %}" type="text/css">
+    <link rel="stylesheet" href=" {%  static 'CSS/jquery.idcode.css' %}" type="text/css">
 
 </head>
 <body>
@@ -21,7 +22,7 @@
             <div class="login_main">
                 <div class="hydl_regsiter">
                     <h2>免费注册</h2>
-                    <span>已注册？<a href="login.html">登录</a></span>
+                    <span>已注册？<a href="{% url 'app:login' %}">登录</a></span>
                 </div>
                 <div class="newPeople">
                     <p><span style="color: rgb(255, 0, 0);">新客专享 50元现金券＋2次免运</span><br/></p>
@@ -66,7 +67,7 @@
                 <div class="xian"></div>
                 <div class="erweima">
                     <div class="erweima">
-                        <img src="images/app.jpg" />
+                        <img src="{%  static 'images/app.jpg' %}" />
                         <p>扫描二维码或发送短信<br>“MLH”到“12114”<br>下载APP尊享独家优惠</p>
                     </div>
                 </div>
@@ -101,8 +102,8 @@
                 <span>COPYRIGHT©2016  杭州魅俪信息技术有限公司版权所有</span>浙ICP备16004860号-1
             </p>
             <p class="footer_license">
-                <span><a href="" target="_blank" rel="nofollow"><img src="images/foot1.jpg.png" width="35" height="36"></a></span>
-                <a href="" target="_blank" rel="nofollow"><img src="images/foot2.jpg.png" width="105" height="35"></a>
+                <span><a href="" target="_blank" rel="nofollow"><img src="{% static 'images/foot1.jpg.png' %}" width="35" height="36"></a></span>
+                <a href="" target="_blank" rel="nofollow"><img src=" {%  static 'images/foot2.jpg.png' %}" width="105" height="35"></a>
             </p>
         </div>
     </div>
