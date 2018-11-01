@@ -2,7 +2,7 @@
   {
     "id"    :  "good1",
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00001a.jpg",
+    "img"   :  "/static/images1/KWD-244-00001a.jpg",
     "alt"   :  "深灰色青果领长袖外套",
     "title" :  "深灰色青果领长袖外套",
     "p1"    :   "KENT&CURWEN",
@@ -13,7 +13,7 @@
   {
     "id"    :  "good2",
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00045a.jpg",
+    "img"   :  "/static/images1/KWD-215-00045a.jpg",
     "alt"   :  "灰色V领纽扣式针织开衫",
     "title" :  "灰色V领纽扣式针织开衫",
     "p1"    :   "KENT&CURWEN",
@@ -24,7 +24,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-206-00011a.jpg",
+    "img"   :  "/static/images1/KWD-206-00011a.jpg",
     "alt"   :  "淡蓝色条纹长袖衬衫",
     "title" :  "淡蓝色条纹长袖衬衫",
     "p1"    :   "KENT&CURWEN",
@@ -35,7 +35,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-203-00003a.jpg",
+    "img"   :  "/static/images1/KWD-203-00003a.jpg",
     "alt"   :  "灰色直筒长裤",
     "title" :  "灰色直筒长裤",
     "p1"    :   "KENT&CURWEN",
@@ -46,7 +46,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00005a.jpg",
+    "img"   :  "/static/images1/KWD-244-00005a.jpg",
     "alt"   :  "黑色全棉系带家居长裤",
     "title" :  "黑色全棉系带家居长裤",
     "p1"    :   "KENT&CURWEN/舒雅",
@@ -57,7 +57,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00009a.jpg",
+    "img"   :  "/static/images1/KWD-244-00009a.jpg",
     "alt"   :  "灰色真丝竖纹翻领短袖开衫长裤居家套装",
     "title" :  "灰色真丝竖纹翻领短袖开衫长裤居家套装",
     "p1"    :   "KENT&CURWEN",
@@ -68,7 +68,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00013a.jpg",
+    "img"   :  "/static/images1/KWD-244-00013a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "KENT&CURWEN",
@@ -79,7 +79,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00021a.jpg",
+    "img"   :  "/static/images1/KWD-244-00021a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "KENT&CURWEN",
@@ -90,7 +90,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00028a.jpg",
+    "img"   :  "/static/images1/KWD-244-00028a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "KENT&CURWEN",
@@ -101,7 +101,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-202-00001a.jpg",
+    "img"   :  "/static/images1/KWD-202-00001a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -112,7 +112,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-202-00004a.jpg",
+    "img"   :  "/static/images1/KWD-202-00004a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -123,7 +123,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00001a.jpg",
+    "img"   :  "/static/images1/KWD-215-00001a.jpg",
     "alt"   :  "黑色V领针织衫",
     "title" :  "黑色V领针织衫",
     "p1"    :   "KENT&CURWEN",
@@ -134,7 +134,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00041a.jpg",
+    "img"   :  "/static/images1/KWD-208-00041a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -145,7 +145,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00045a.jpg",
+    "img"   :  "/static/images1/KWD-208-00045a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -156,7 +156,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00049a.jpg",
+    "img"   :  "/static/images1/KWD-208-00049a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -167,7 +167,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00053a.jpg",
+    "img"   :  "/static/images1/KWD-208-00053a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -178,7 +178,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00059a.jpg",
+    "img"   :  "/static/images1/KWD-208-00059a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -189,7 +189,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00064a.jpg",
+    "img"   :  "/static/images1/KWD-208-00064a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -200,7 +200,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-208-00071a.jpg",
+    "img"   :  "/static/images1/KWD-208-00071a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -211,7 +211,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00001a.jpg",
+    "img"   :  "/static/images1/KWD-215-00001a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -222,7 +222,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00005a.jpg",
+    "img"   :  "/static/images1/KWD-215-00005a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -233,7 +233,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00011a.jpg",
+    "img"   :  "/static/images1/KWD-215-00011a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -244,7 +244,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00011b.jpg",
+    "img"   :  "/static/images1/KWD-215-00011b.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -255,7 +255,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00017a.jpg",
+    "img"   :  "/static/images1/KWD-215-00017a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -266,7 +266,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00021a.jpg",
+    "img"   :  "/static/images1/KWD-215-00021a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -277,7 +277,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00025a.jpg",
+    "img"   :  "/static/images1/KWD-215-00025a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -288,7 +288,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00029a.jpg",
+    "img"   :  "/static/images1/KWD-215-00029a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -299,7 +299,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00035a.jpg",
+    "img"   :  "/static/images1/KWD-215-00035a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -310,7 +310,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00039a.jpg",
+    "img"   :  "/static/images1/KWD-215-00039a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -321,7 +321,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-215-00045a.jpg",
+    "img"   :  "/static/images1/KWD-215-00045a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -332,7 +332,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00001a.jpg",
+    "img"   :  "/static/images1/KWD-244-00001a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -343,7 +343,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00001b.jpg",
+    "img"   :  "/static/images1/KWD-244-00001b.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -354,7 +354,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00005a.jpg",
+    "img"   :  "/static/images1/KWD-244-00005a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -365,7 +365,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00009a.jpg",
+    "img"   :  "/static/images1/KWD-244-00009a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -376,7 +376,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00013a.jpg",
+    "img"   :  "/static/images1/KWD-244-00013a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",
@@ -387,7 +387,7 @@
   },
   {
     "mai"   :  "买手推荐",
-    "img"   :  "images1/KWD-244-00021a.jpg",
+    "img"   :  "/static/images1/KWD-244-00021a.jpg",
     "alt"   :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "title" :  "深蓝色SUPIMA棉拼边圆领长袖保暖上衣",
     "p1"    :   "Schiesser/舒雅",

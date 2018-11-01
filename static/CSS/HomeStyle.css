@@ -395,9 +395,10 @@ div#box {
     margin: 0 auto;
 
 }
- .swiper-container {
+.swiper-container {
       width: 100%;
       height: 100%;
+
     }
     .swiper-slide {
       text-align: center;
@@ -435,48 +436,48 @@ div#box {
     float: left;
 }
 
-#list2 {
-    width: 200px;
-    height: 20px;
-    position: absolute;
-    right: 430px;
-    bottom: 30px;
-}
+/*#list2 {*/
+    /*width: 200px;*/
+    /*height: 20px;*/
+    /*position: absolute;*/
+    /*right: 430px;*/
+    /*bottom: 30px;*/
+/*}*/
 
-#list2 li {
-    width: 25px;
-    height: 25px;
-    border: 1px solid green;
-    background: yellow;
-    text-align: center;
-    line-height: 25px;
-    cursor: pointer;
-    float: left;
-    margin-left: 5px;
-}
+/*#list2 li {*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*border: 1px solid green;*/
+    /*background: yellow;*/
+    /*text-align: center;*/
+    /*line-height: 25px;*/
+    /*cursor: pointer;*/
+    /*float: left;*/
+    /*margin-left: 5px;*/
+/*}*/
 
-#list2 li.active {
-    background: green;
-}
+/*#list2 li.active {*/
+    /*background: green;*/
+/*}*/
 
-#left, #right {
-    width: 25px;
-    height: 40px;
-    position: absolute;
-    cursor: pointer;
-    top: 45%;
-    text-align: center;
-}
+/*#left, #right {*/
+    /*width: 25px;*/
+    /*height: 40px;*/
+    /*position: absolute;*/
+    /*cursor: pointer;*/
+    /*top: 45%;*/
+    /*text-align: center;*/
+/*}*/
 
-#left {
-    left: 200px;
-    background: url("../images/bigbanner_leftarrows.png") no-repeat;
-}
+/*#left {*/
+    /*left: 200px;*/
+    /*background: url("../images/bigbanner_leftarrows.png") no-repeat;*/
+/*}*/
 
-#right {
-    right: 200px;
-    background: url("../images/bigbanner_rightarrows.png") no-repeat;
-}
+/*#right {*/
+    /*right: 200px;*/
+    /*background: url("../images/bigbanner_rightarrows.png") no-repeat;*/
+/*}*/
 
 /*楼梯固定窗口*/
 #floatingNav {

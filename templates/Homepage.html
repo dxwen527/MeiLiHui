@@ -10,7 +10,7 @@
 
     <script src="{% static 'JS/jquery-1.12.3.js' %}" type="text/javascript"></script>
 {#    <script src="{% static 'JS/navindex.js' %}" type="text/javascript"></script>#}
-{#    <script src="{% static 'JS/homepage.js' %}" type="text/javascript"></script>#}
+    <script src="{% static 'JS/homepage.js' %}" type="text/javascript"></script>
     <script src="{% static 'JS/swiper.js' %}" type="text/javascript"></script>
      <link rel="stylesheet" href="{% static 'CSS/swiper.css' %}" type="text/css">
     <link rel="stylesheet" href="{% static 'CSS/HomeStyle.css' %}" type="text/css">
@@ -276,11 +276,13 @@
         <li class="swiper-slide"><img src="{% static 'images/nav4.jpg' %}" alt=""></li>
         <li class="swiper-slide"><img src="{% static 'images/nav5.jpg' %}" alt=""></li>
     </ul>
-    <ul id="list2">
 
-    </ul>
-    <div id="left"> </div>
-    <div id="right"> </div>
+
+
+
+     <div class="swiper-pagination"></div>
+    <div  class="swiper-button-next"></div>
+    <div   class="swiper-button-prev"></div>
 </div>
 
 <!--楼梯固定窗口-->

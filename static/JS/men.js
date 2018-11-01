@@ -6,18 +6,18 @@
 
 $(function(){
     var shangpin = location.search.replace("?","");
-    $.get("JSON/men.json",function(data){
-        for(var i=0;i<data.length;i++){
-            var obj = data[i];
-            var id = obj.id;
-            var mai = obj.mai;
-            var img = obj.img;
-            var alt = obj.alt;
-            var title = obj.title;
-            var p1 = obj.p1;
-            var p2 = obj.p2;
-            var span1 = obj.span1;
-            var span2 = obj.span2;
+    // $.get("/static/JSON/men.json",function(data){
+    //     for(var i=0;i<data.length;i++){
+    //         var obj = data[i];
+    //         var id = obj.id;
+    //         var mai = obj.mai;
+    //         var img = obj.img;
+    //         var alt = obj.alt;
+    //         var title = obj.title;
+    //         var p1 = obj.p1;
+    //         var p2 = obj.p2;
+    //         var span1 = obj.span1;
+    //         var span2 = obj.span2;
 
            /* var listproductNode = $("<div class='listproduct'></div>");
             var productImgNode = $("<div class='product_img'></div>");
@@ -53,33 +53,33 @@ $(function(){
 
             //$("#contentDiv").append(listproductNode);*/
 
-            $("#contentDiv").append('<div class="listproduct">' +
-                '<div class="product_img">' +
-                '<div class="product_label">' +
-                '<p class="label01 ie6png_compatible">'+mai+'</p>' +
-                '</div>' +
-                '<a href=GoodsDetails.html?'+id+'&'+shangpin+' target="_blank" style="white-space: normal">' +
-                '<img src='+img+' alt='+alt+' title='+title+'>' +
-                '</a>' +
-                '</div>' +
-                '<div class="product_content">' +
-                '<p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">' +
-                '<a href="" style="color: #000">' +
-                p1 +
-                '</a>' +
-                '</p>' +
-                '<p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">' +
-                '<a href="" style="color: #000">' +
-                p2 +
-                '</a>' +
-                '</p>' +
-                '<p class="font14px">' +
-                '<span class="red">'+span1+'</span>' +
-                '<span style="text-decoration: line-through;font-size: 12px;margin-left:20px">'+span2+'</span>' +
-                '</p>' +
-                '</div>'+
-                '</div>');
-        }
+        //     $("#contentDiv").append('<div class="listproduct">' +
+        //         '<div class="product_img">' +
+        //         '<div class="product_label">' +
+        //         '<p class="label01 ie6png_compatible">'+mai+'</p>' +
+        //         '</div>' +
+        //         '<a href=GoodsDetails.html?'+id+'&'+shangpin+' target="_blank" style="white-space: normal">' +
+        //         '<img src=  '+img+' alt='+alt+' title='+title+'>' +
+        //         '</a>' +
+        //         '</div>' +
+        //         '<div class="product_content">' +
+        //         '<p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">' +
+        //         '<a href="" style="color: #000">' +
+        //         p1 +
+        //         '</a>' +
+        //         '</p>' +
+        //         '<p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">' +
+        //         '<a href="" style="color: #000">' +
+        //         p2 +
+        //         '</a>' +
+        //         '</p>' +
+        //         '<p class="font14px">' +
+        //         '<span class="red">'+span1+'</span>' +
+        //         '<span style="text-decoration: line-through;font-size: 12px;margin-left:20px">'+span2+'</span>' +
+        //         '</p>' +
+        //         '</div>'+
+        //         '</div>');
+        // }
 
         $(".listproduct").hover(function(){
             $(this).css({

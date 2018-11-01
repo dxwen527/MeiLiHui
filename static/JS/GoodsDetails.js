@@ -17,41 +17,41 @@ $(function(){
 
 
     //动态加载商品详情图片
-    $.get("JSON/GoodsDetails.json",function(data){
-
-        for (var i=0;i<data.length;i++){
-            var obj = data[i];
-            var id = obj.id;
-            if(ids == id){
-                var event = obj.event;
-                var product = obj.product;
-                var bigImg =  obj.bigImg;
-                var alt = obj.alt;
-                var title = obj.title;
-                var smallimg1 = obj.smallimg1;
-                var smallimg2 = obj.smallimg2;
-                var smallimg3 = obj.smallimg3;
-                var producttitle = obj.producttitle;
-                var productname = obj.productname;
-                var currentprice = obj.currentprice;
-                var originalprice = obj.originalprice;
-                var discount = obj.discount;
-                var selectimg = obj.selectimg;
-                var selectcolor = obj.selectcolor;
-                var choosesize1 = obj.choosesize1;
-                var choosesize2 = obj.choosesize2;
-                var choosesize3 = obj.choosesize3;
-                var changtu     =  obj.changtu;
+    // $.get("JSON/GoodsDetails.json",function(data){
+    //
+    //     for (var i=0;i<data.length;i++){
+    //         var obj = data[i];
+    //         var id = obj.id;
+    //         if(ids == id){
+    //             var event = obj.event;
+    //             var product = obj.product;
+    //             var bigImg =  obj.bigImg;
+    //             var alt = obj.alt;
+    //             var title = obj.title;
+    //             var smallimg1 = obj.smallimg1;
+    //             var smallimg2 = obj.smallimg2;
+    //             var smallimg3 = obj.smallimg3;
+    //             var producttitle = obj.producttitle;
+    //             var productname = obj.productname;
+    //             var currentprice = obj.currentprice;
+    //             var originalprice = obj.originalprice;
+    //             var discount = obj.discount;
+    //             var selectimg = obj.selectimg;
+    //             var selectcolor = obj.selectcolor;
+    //             var choosesize1 = obj.choosesize1;
+    //             var choosesize2 = obj.choosesize2;
+    //             var choosesize3 = obj.choosesize3;
+    //             var changtu     =  obj.changtu;
 
                 //添加到相应的地方
-                $("#event").find("a").html(event);
-                $("#productspan").html(product);
-                $(".product_bigimg").find("img").attr({
-                    "src"   :   bigImg,
-                    "alt"   :  alt,
-                    "title" : title
-                });
-                //放大镜大图跟着加载的图片变化，改变默认的放大镜图片
+                // $("#event").find("a").html(event);
+                // $("#productspan").html(product);
+                // $(".product_bigimg").find("img").attr({
+                //     "src"   :   bigImg,
+                //     "alt"   :  alt,
+                //     "title" : title
+                // });
+                // //放大镜大图跟着加载的图片变化，改变默认的放大镜图片
                 var sr = $(".product_bigimg").find("img").attr("src").split("_")[0];
                 $("#bigArea").find("img").attr("src",sr+"_900w-1200h.jpg");
 

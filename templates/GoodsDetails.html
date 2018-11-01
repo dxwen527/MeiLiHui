@@ -64,8 +64,8 @@
     <div class="nav_container">
         <div class="nav">
             <ul class="nav1">
-                <li class="navLi"><a href="Homepage.html" style="color: red">首页</a></li>
-                <li class="navLi"><a href="Men.html">女士</a>
+                <li class="navLi"><a href="{% url 'app:Homepage' %}" style="color: red">首页</a></li>
+                <li class="navLi"><a href="{% url 'app:Men' %}">女士</a>
                     <!--弹出二级菜单-->
                     <div class="pop_up1">
                         <div class="submenu" style="border-right:1px solid #e7e7e7">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="navLi"><a href="Men.html">男士</a>
+                <li class="navLi"><a href="{% url 'app:Men' %}">男士</a>
                     <!--弹出二级菜单-->
                     <div class="pop_up2">
                         <div class="submenu" style="border-right:1px solid #e7e7e7">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="navLi"><a href="Men.html">美妆</a>
+                <li class="navLi"><a href="{% url 'app:Men' %}">美妆</a>
                     <!--弹出二级菜单-->
                     <div class="pop_up3">
                         <div class="submenu" style="border-right:1px solid #e7e7e7">
@@ -265,8 +265,8 @@
 <div class="content_container">
     <div class="breadcrumbs" id="breadcrumbs">
         <ul>
-            <li><a href="Homepage.html">首页</a></li>
-            <li id="silo"><span>></span><a href="Men.html">
+            <li><a href="{% url 'app:Homepage' %}">首页</a></li>
+            <li id="silo"><span>></span><a href="{% url 'app:Men' %}">
                 男士
             </a></li>
             <li id="event"><span>></span><a href="">
@@ -279,9 +279,10 @@
     </div>
 
     <div class="product_main clearfix">
+{#        {% for g_detail in g_details %}#}
         <div class="product_view">
             <div class="product_bigimg">
-                <img src="{% static 'images1/KWD-244-00001a_480w-640h.jpg' %}" alt="黑色纽扣式立领长袖外套" title="黑色纽扣式立领长袖外套" style="display:block">
+                <img src="{{ g_details.bigImg }}" alt="{{ g_details.alt }}" title="{{ g_details.title }}" style="display:block">
                 <div id="mark"></div>
                 <a class="bigimg_prev" style="display: none"></a>
                 <a class="bigimg_next" style="display: none"></a>
@@ -298,7 +299,7 @@
                 <a id="btn_pageRight" class="right_page_have"  >右翻页</a>
             </div>
         </div>
-
+{#        {% endfor %}#}
         <!--放大镜-->
         <div id="bigArea">
             <img src="{% static 'images1/KWD-244-00001a_900w-1200h.jpg' %}" alt="" id="bigImg">

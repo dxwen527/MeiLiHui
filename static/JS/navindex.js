@@ -73,26 +73,26 @@ $(function(){
     //轮播图
 
     // 1，获取数据
-    $.get("json/lunbo.json",function(data){
-        console.log(data);
-
-        //2 显示数据在页面上
-        // 遍历data 数组， 将每个图片显示在页面上
-        for(var i=0;i<data.length;i++){
-            var obj = data[i];
-            var img = obj.img; //img
-            var id = obj.id;  //id
-
-            //将创建好的节点添加到页面上
-            //"<li><img src="img/b1.jpg" /></li>"
-            $("#list").append("<li><img src="+ img + " /></li>");
-            $("#list2").append("<li>"+ (i+1)+"</li>");
-
-            //初始化 把第一个li的样式变为选中状态
-            if(i==0){
-                $("#list2 li").addClass("active");
-            }
-        }
+    // $.get("json/lunbo.json",function(data){
+    //     console.log(data);
+    //
+    //     //2 显示数据在页面上
+    //     // 遍历data 数组， 将每个图片显示在页面上
+    //     for(var i=0;i<data.length;i++){
+    //         var obj = data[i];
+    //         var img = obj.img; //img
+    //         var id = obj.id;  //id
+    //
+    //         //将创建好的节点添加到页面上
+    //         //"<li><img src="img/b1.jpg" /></li>"
+    //         $("#list").append("<li><img src="+ img + " /></li>");
+    //         $("#list2").append("<li>"+ (i+1)+"</li>");
+    //
+    //         //初始化 把第一个li的样式变为选中状态
+    //         if(i==0){
+    //             $("#list2 li").addClass("active");
+    //         }
+    //     }
 
         //显示隐藏APP下载二维码
         $(".quick_access_right ul").find("li").eq(2).hover(function(){
