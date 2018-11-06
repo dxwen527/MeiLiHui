@@ -28,11 +28,11 @@ def shoppingbag(request):
 
 #
 def GoodsDetails(request,goodsid):
-    g_details = GoodsDetail.objects.filter(goodid=goodsid).first()
-    # date = {
-    #     'g_details':g_details
-    # }
-    return render(request,'GoodsDetails.html',context={'g_details':g_details})
+    goodsdetail = GoodsDetail.objects.filter(goodid=goodsid)
+    date = {
+        'goodsdetail':goodsdetail
+    }
+    return render(request,'GoodsDetails.html',context=date)
 
 
 def Men(request):
